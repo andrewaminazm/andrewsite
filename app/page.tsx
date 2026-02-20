@@ -22,7 +22,7 @@ export default function Home() {
             <img
               src="/images/page_04_img_01.jpeg"
               alt="Andrew Amin Azmy"
-              className="h-28 w-28 shrink-0 rounded-full border-2 border-[#3b82f6]/50 object-cover shadow-lg sm:h-32 sm:w-32"
+              className="h-36 w-36 shrink-0 rounded-full border-2 border-[#3b82f6]/50 object-cover object-center shadow-lg sm:h-44 sm:w-44 md:h-52 md:w-52"
             />
             <div className="flex-1">
               <h1 className="text-3xl font-bold tracking-tight text-white md:text-4xl">
@@ -234,17 +234,18 @@ export default function Home() {
               "page_02_img_09.jpeg", "page_02_img_10.jpeg", "page_02_img_11.jpeg", "page_02_img_12.jpeg",
               "page_02_img_13.jpeg", "page_02_img_14.jpeg", "page_03_img_02.jpeg",
               "page_03_img_03.jpeg", "page_03_img_04.jpeg", "page_03_img_05.jpeg",
-            ].map((name) => (
+            ].map((name, index) => (
               <a
                 key={name}
                 href={`/images/${name}`}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label={`View certification badge ${index + 1}`}
                 className="overflow-hidden rounded-lg border border-white/10 bg-[#1a2332] transition hover:border-[#3b82f6]/50"
               >
                 <img
                   src={`/images/${name}`}
-                  alt=""
+                  alt={`Certification badge ${index + 1}`}
                   className="aspect-square w-full object-cover"
                 />
               </a>

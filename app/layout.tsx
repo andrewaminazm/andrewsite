@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import ScrollToHash from "./ScrollToHash";
 
 export const metadata: Metadata = {
   title: "Andrew Amin Azmy | Senior Automation Test Engineer",
@@ -21,6 +22,7 @@ export default function RootLayout({
         <a href="#about" className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded focus:bg-[#3b82f6] focus:px-3 focus:py-2 focus:text-white focus:outline-none">
           Skip to main content
         </a>
+        <ScrollToHash />
         {children}
       </body>
     </html>

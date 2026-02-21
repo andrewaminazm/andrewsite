@@ -197,21 +197,17 @@ export default function Home() {
 
           <p className="mb-3 text-sm text-[#94a3b8]">Blogs &amp; resources</p>
           <ul className="space-y-3">
-            {[
-              { title: "AI × Testing Blog", url: "https://radiant-taffy-5a2bcb.netlify.app/", note: "Testing with AI — prompts, tools, and real results" },
-            ].map((item) => (
-              <li key={item.url}>
-                <a
-                  href={item.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="card block rounded-xl border border-white/5 bg-[#1a2332] p-4 text-[#60a5fa] hover:border-[#3b82f6]/30 hover:bg-[#1a2332]/90"
-                >
-                  <span className="font-medium">{item.title}</span>
-                  {item.note && <span className="ml-2 text-sm text-[#94a3b8]">— {item.note}</span>}
-                </a>
-              </li>
-            ))}
+            <li>
+              <a
+                href="https://radiant-taffy-5a2bcb.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="card block rounded-xl border border-white/5 bg-[#1a2332] p-4 text-[#60a5fa] hover:border-[#3b82f6]/30 hover:bg-[#1a2332]/90"
+              >
+                <span className="font-medium">AI × Testing Blog</span>
+                <span className="ml-2 text-sm text-[#94a3b8]">— Testing with AI — prompts, tools, and real results</span>
+              </a>
+            </li>
           </ul>
         </section>
 

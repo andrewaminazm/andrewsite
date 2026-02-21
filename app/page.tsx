@@ -198,6 +198,7 @@ export default function Home() {
           <p className="mb-3 text-sm text-[#94a3b8]">Blogs &amp; resources</p>
           <ul className="space-y-3">
             <li>
+              {/* AI × Testing Blog - single blog link */}
               <a
                 href="https://radiant-taffy-5a2bcb.netlify.app/"
                 target="_blank"

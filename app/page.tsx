@@ -199,6 +199,7 @@ export default function Home() {
           <ul className="space-y-3">
             {[
               { title: "Blog", url: "https://newal3aby22.blogspot.com.eg/", note: "Personal blog" },
+              { title: "AI × Testing", url: "https://radiant-taffy-5a2bcb.netlify.app/", note: "Testing with AI — prompts, tools, and real results" },
             ].map((item) => (
               <li key={item.url}>
                 <a

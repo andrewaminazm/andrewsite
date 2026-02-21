@@ -9,6 +9,9 @@ export default function Home() {
           <a href="#writing" className="text-[#94a3b8] hover:text-[#60a5fa]">Writing</a>
           <a href="#certifications" className="text-[#94a3b8] hover:text-[#60a5fa]">Certifications</a>
           <a href="#contact" className="text-[#94a3b8] hover:text-[#60a5fa]">Contact</a>
+          <a href="https://radiant-taffy-5a2bcb.netlify.app/" target="_blank" rel="noopener noreferrer" className="rounded-full border border-[#3b82f6] bg-transparent px-4 py-2 text-[#60a5fa] hover:bg-[#3b82f6]/20">
+            Blog
+          </a>
           <a href="/Andrew_Amin_Azmy_CV.pdf" download className="rounded-full bg-[#3b82f6] px-4 py-2 text-white hover:bg-[#2563eb]">
             Download CV
           </a>
@@ -194,22 +197,6 @@ export default function Home() {
               </p>
             </div>
           </article>
-
-          <p className="mb-3 text-sm text-[#94a3b8]">Blogs &amp; resources</p>
-          <ul className="space-y-3">
-            <li>
-              {/* AI × Testing Blog - single blog link */}
-              <a
-                href="https://radiant-taffy-5a2bcb.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="card block rounded-xl border border-white/5 bg-[#1a2332] p-4 text-[#60a5fa] hover:border-[#3b82f6]/30 hover:bg-[#1a2332]/90"
-              >
-                <span className="font-medium">AI × Testing Blog</span>
-                <span className="ml-2 text-sm text-[#94a3b8]">— Testing with AI — prompts, tools, and real results</span>
-              </a>
-            </li>
-          </ul>
         </section>
 
         {/* Certifications */}

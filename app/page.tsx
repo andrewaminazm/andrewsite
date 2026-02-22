@@ -9,9 +9,19 @@ export default function Home() {
           <a href="#writing" className="text-[#94a3b8] hover:text-[#60a5fa]">Writing</a>
           <a href="#certifications" className="text-[#94a3b8] hover:text-[#60a5fa]">Certifications</a>
           <a href="#contact" className="text-[#94a3b8] hover:text-[#60a5fa]">Contact</a>
-          <a href="https://radiant-taffy-5a2bcb.netlify.app/" target="_blank" rel="noopener noreferrer" className="rounded-full border border-[#3b82f6] bg-transparent px-4 py-2 text-[#60a5fa] hover:bg-[#3b82f6]/20">
-            Blog
-          </a>
+          <details className="relative group">
+            <summary className="list-none cursor-pointer rounded-full border border-[#3b82f6] bg-transparent px-4 py-2 text-[#60a5fa] hover:bg-[#3b82f6]/20 [&::-webkit-details-marker]:hidden">
+              Blog ▾
+            </summary>
+            <div className="absolute left-1/2 top-full z-20 mt-1 w-56 -translate-x-1/2 rounded-lg border border-white/10 bg-[#1a2332] py-1 shadow-xl">
+              <a href="https://radiant-taffy-5a2bcb.netlify.app/" target="_blank" rel="noopener noreferrer" className="block px-4 py-2.5 text-sm text-[#e2e8f0] hover:bg-[#3b82f6]/20 hover:text-[#60a5fa]">
+                AI × Testing Blog
+              </a>
+              <a href="https://glittering-mousse-1be21f.netlify.app/" target="_blank" rel="noopener noreferrer" className="block px-4 py-2.5 text-sm text-[#e2e8f0] hover:bg-[#3b82f6]/20 hover:text-[#60a5fa]">
+                Performance Test Blog
+              </a>
+            </div>
+          </details>
           <a href="/Andrew_Amin_Azmy_CV.pdf" download className="rounded-full bg-[#3b82f6] px-4 py-2 text-white hover:bg-[#2563eb]">
             Download CV
           </a>

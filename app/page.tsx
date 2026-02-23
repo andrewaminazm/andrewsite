@@ -20,6 +20,9 @@ export default function Home() {
               <a href="https://glittering-mousse-1be21f.netlify.app/" target="_blank" rel="noopener noreferrer" className="block px-4 py-2.5 text-sm text-[#e2e8f0] hover:bg-[#3b82f6]/20 hover:text-[#60a5fa]">
                 Performance Test Blog
               </a>
+              <a href="https://calm-biscuit-4b163c.netlify.app/" target="_blank" rel="noopener noreferrer" className="block px-4 py-2.5 text-sm text-[#e2e8f0] hover:bg-[#3b82f6]/20 hover:text-[#60a5fa]">
+                Manual Test Blog
+              </a>
             </div>
           </details>
           <a href="/Andrew_Amin_Azmy_CV.pdf" download className="rounded-full bg-[#3b82f6] px-4 py-2 text-white hover:bg-[#2563eb]">

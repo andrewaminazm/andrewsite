@@ -32,6 +32,18 @@ export default function Home() {
               <a href="https://stately-puppy-aecc83.netlify.app/" target="_blank" rel="noopener noreferrer" className="block px-4 py-2.5 text-sm text-[#e2e8f0] hover:bg-[#3b82f6]/20 hover:text-[#60a5fa]">
                 Test Strategy and Documentation
               </a>
+              <a href="https://fastidious-paletas-004795.netlify.app/" target="_blank" rel="noopener noreferrer" className="block px-4 py-2.5 text-sm text-[#e2e8f0] hover:bg-[#3b82f6]/20 hover:text-[#60a5fa]">
+                Automation Cheat Sheet
+              </a>
+              <a href="https://fluffy-dolphin-ec930d.netlify.app/" target="_blank" rel="noopener noreferrer" className="block px-4 py-2.5 text-sm text-[#e2e8f0] hover:bg-[#3b82f6]/20 hover:text-[#60a5fa]">
+                Cypress Full Course
+              </a>
+              <a href="https://courageous-cassata-4fd76d.netlify.app/" target="_blank" rel="noopener noreferrer" className="block px-4 py-2.5 text-sm text-[#e2e8f0] hover:bg-[#3b82f6]/20 hover:text-[#60a5fa]">
+                Playwright Full Course
+              </a>
+              <a href="https://superb-chaja-1a68ba.netlify.app/" target="_blank" rel="noopener noreferrer" className="block px-4 py-2.5 text-sm text-[#e2e8f0] hover:bg-[#3b82f6]/20 hover:text-[#60a5fa]">
+                Test Management Tools
+              </a>
             </div>
           </details>
           <a href="/Andrew_Amin_Azmy_CV.pdf" download className="rounded-full bg-[#3b82f6] px-4 py-2 text-white hover:bg-[#2563eb]">

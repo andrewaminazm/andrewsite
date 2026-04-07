@@ -52,6 +52,25 @@ export default function Home() {
               </a>
             </div>
           </details>
+          <details className="relative group">
+            <summary className="list-none cursor-pointer rounded-full border border-[#3b82f6] bg-transparent px-4 py-2 text-[#60a5fa] hover:bg-[#3b82f6]/20 [&::-webkit-details-marker]:hidden">
+              Tools ▾
+            </summary>
+            <div className="absolute left-1/2 top-full z-20 mt-1 w-64 -translate-x-1/2 rounded-lg border border-white/10 bg-[#1a2332] py-1 shadow-xl">
+              <a href="https://leafy-banoffee-9cdfe6.netlify.app/" target="_blank" rel="noopener noreferrer" className="block px-4 py-2.5 text-sm text-[#e2e8f0] hover:bg-[#3b82f6]/20 hover:text-[#60a5fa]">
+                Saudi IBAN Studio
+              </a>
+              <a href="https://glittering-faloodeh-de4a13.netlify.app/" target="_blank" rel="noopener noreferrer" className="block px-4 py-2.5 text-sm text-[#e2e8f0] hover:bg-[#3b82f6]/20 hover:text-[#60a5fa]">
+                Saudi Test Data Faker
+              </a>
+              <a href="https://lambent-strudel-09a6b1.netlify.app/" target="_blank" rel="noopener noreferrer" className="block px-4 py-2.5 text-sm text-[#e2e8f0] hover:bg-[#3b82f6]/20 hover:text-[#60a5fa]">
+                API Advance
+              </a>
+              <a href="https://meek-pavlova-1621ce.netlify.app/" target="_blank" rel="noopener noreferrer" className="block px-4 py-2.5 text-sm text-[#e2e8f0] hover:bg-[#3b82f6]/20 hover:text-[#60a5fa]">
+                QA Interview Simulator
+              </a>
+            </div>
+          </details>
           <a href="/Andrew_Amin_Azmy_CV.pdf" download className="rounded-full bg-[#3b82f6] px-4 py-2 text-white hover:bg-[#2563eb]">
             Download CV
           </a>

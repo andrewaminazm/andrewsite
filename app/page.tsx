@@ -69,6 +69,9 @@ export default function Home() {
               <a href="https://meek-pavlova-1621ce.netlify.app/" target="_blank" rel="noopener noreferrer" className="block px-4 py-2.5 text-sm text-[#e2e8f0] hover:bg-[#3b82f6]/20 hover:text-[#60a5fa]">
                 QA Interview Simulator
               </a>
+              <a href="https://cozy-puppy-16fa93.netlify.app/" target="_blank" rel="noopener noreferrer" className="block px-4 py-2.5 text-sm text-[#e2e8f0] hover:bg-[#3b82f6]/20 hover:text-[#60a5fa]">
+                Automation Testing Practice
+              </a>
             </div>
           </details>
           <a href="/Andrew_Amin_Azmy_CV.pdf" download className="rounded-full bg-[#3b82f6] px-4 py-2 text-white hover:bg-[#2563eb]">

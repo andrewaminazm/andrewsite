@@ -47,6 +47,9 @@ export default function Home() {
               <a href="https://whimsical-pithivier-5cf075.netlify.app/" target="_blank" rel="noopener noreferrer" className="block px-4 py-2.5 text-sm text-[#e2e8f0] hover:bg-[#3b82f6]/20 hover:text-[#60a5fa]">
                 Interview Preparation
               </a>
+              <a href="https://rainbow-puppy-8d0d6f.netlify.app/" target="_blank" rel="noopener noreferrer" className="block px-4 py-2.5 text-sm text-[#e2e8f0] hover:bg-[#3b82f6]/20 hover:text-[#60a5fa]">
+                Testing Hub
+              </a>
             </div>
           </details>
           <a href="/Andrew_Amin_Azmy_CV.pdf" download className="rounded-full bg-[#3b82f6] px-4 py-2 text-white hover:bg-[#2563eb]">
